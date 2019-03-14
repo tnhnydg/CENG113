@@ -30,6 +30,3 @@ if Ins_name != "quit" :
             
         Inq_name = raw_input("Please enter the name to search:")
         Ins_name = Inq_name.lower()
-        
-else :
-    c = "User wanted to quit." # Meaningless line, just finishes without any prints.
