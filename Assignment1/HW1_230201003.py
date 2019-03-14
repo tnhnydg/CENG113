@@ -1,6 +1,6 @@
 #Student ID : 230201003
-A = input("Please enter your age:") 
-G1 = raw_input("Please enter your gender:") 
+A = input("Please enter your age:") #Asking for age
+G1 = raw_input("Please enter your gender:") #Used raw_input because Gender should be taken as string
 H = input("Please enter your height in centimetre:") 
 W = input("Please enter your weight in kilogram:") 
 G = G1.lower() #For case insensitivity
