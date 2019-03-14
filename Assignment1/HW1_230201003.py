@@ -1,9 +1,9 @@
 #Student ID : 230201003
-A = input("Please enter your age:") #Asking for age
-G1 = raw_input("Please enter your gender:") #Asking for gender (Used raw_input because Gender should be taken as string)
-H = input("Please enter your height in centimetre:") #Asking for height in centimetre
-W = input("Please enter your weight in kilogram:") #Asking for weight in kilogram
-G = G1.lower() #For case insensitive
+A = input("Please enter your age:") 
+G1 = raw_input("Please enter your gender:") 
+H = input("Please enter your height in centimetre:") 
+W = input("Please enter your weight in kilogram:") 
+G = G1.lower() #For case insensitivity
 if A < 30 :
     if G == "man":
         n = 5.0
